@@ -44,7 +44,6 @@
       />
       <geometry>
         <mesh filename="file://$(find follow_me_py)/meshes/base_link.STL" />
-        <!-- <mesh filename="file://$(find my_package)/meshes/rp_lidar.dae"/> -->
       </geometry>
       <material
         name="">
@@ -58,7 +57,6 @@
         rpy="0 0 0" />
       <geometry>
         <mesh filename="file://$(find follow_me_py)/meshes/base_link.STL" />
-        <!-- <uri>model://meshes/base_Link.STL</uri> -->
       </geometry>
     </collision>
   </link>
