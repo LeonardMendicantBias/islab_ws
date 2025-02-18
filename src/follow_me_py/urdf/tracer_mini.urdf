@@ -19,9 +19,9 @@
     </joint>
   </ros2_control>
 
-  <link name="dummy_link"/>
+  <link name="base_footprint"/>
   <link name="base_link">
-    <parent link="dummy_link"/>
+    <parent link="base_footprint"/>
     <inertial>
       <origin
         xyz="0.0159871268556407 1.58872275333177E-05 -0.0309422377248268"
@@ -61,7 +61,7 @@
     </collision>
   </link>
   <joint name="dummy_to_base" type="fixed">
-      <parent link="dummy_link"/>
+      <parent link="base_footprint"/>
       <child link="base_link"/>
       <origin xyz="0 0 0" rpy="0 0 0"/>
   </joint>

@@ -35,4 +35,6 @@ def generate_launch_description():
     ])
 
 
+# sudo ln -s /usr/local/lib/libonnxruntime.so.1.4.0 /usr/local/lib/libonnxruntime.so
+
                     # {"default_nav_to_pose_bt_xml": "/home/leonard/stalker_ws/stalker/config/stalker_tree.xml"}
